@@ -1,0 +1,91 @@
+body {
+    background-image: url("../Img/achtergrond.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    min-width: 1vh auto;
+    min-height: 1vh auto;
+}
+
+hr {
+    display: none;
+}
+
+#over-mij{
+    margin: 1em;
+    padding: 1em;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.briefje {
+    margin: 2em;
+    padding: 1em;
+    background-color : whitesmoke;
+    border : 4px dashed orange;
+    border-radius : 10px;
+    box-sizing: border-box;
+    text-align: left;
+    font-family : 'Courier New', Courier, monospace;
+}
+
+
+#socials{
+    background-color: rgb(255, 255, 0, 0.5);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+a {
+    border-radius: 5px;
+    margin: 2px;
+    padding: 2px;
+    background-color: blue;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+}
+
+a:hover {
+    background-color: lightskyblue;
+    color: yellow;
+}
